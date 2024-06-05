@@ -1,0 +1,478 @@
+body{
+  font-family: "Poppins", sans-serif;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+.clear-fix{
+  clear: both;
+}
+/*Main header*/
+.main-header__logo img{
+  width: 100px;
+}
+.main-header__logo{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 300px;
+}
+.main-navigation{
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-navigation__item{
+  display: inline-block;
+  padding: 10px;
+}
+.main-navigation__item a{
+  text-decoration: none;
+  color: #450b78;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+.main-navigation__item a:hover{
+  border-bottom: 3px solid #6f42c1;
+
+}
+.main-navigation__item.active a{
+  border-bottom: 3px solid #6f42c1;
+
+}
+/* /Main header*/
+
+/* Main Section*/
+.main-section{
+  padding-top: 100px;
+}
+.main-section > div{
+  width: 50%;
+  float: left;
+}
+.main-section__info{
+  padding-top: 100px;
+}
+.section-subtitle{
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #2b044d;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.section-title{
+  font-size: 64px;
+  font-family: "Arial Rounded", sans-serif;
+  color: #2b044d;
+  margin-top: 30px;
+}
+.section-description{
+  font-size: 16px;
+  color: #707b8e;
+  font-weight: normal;
+  margin-top: 30px;
+  line-height: 30px;
+}
+.section-button{
+  padding: 18px 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  width: 28%;
+  color: #FFFFFF;
+  border-radius: 25px;
+  background-color: #f9218d;
+  border: none;
+  margin-right: 14px;
+  cursor: pointer;
+}
+.section-button__circus{
+  padding: 16px 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  width: 55px;
+  height: 55px;
+  color: #FFFFFF;
+  border-radius: 50px;
+  background-color: #d852e8;
+  border: none;
+  cursor: pointer;
+}
+/* /Main Section*/
+
+/*Features Section*/
+
+.features-section > div{
+  width: 50%;
+  float: left;
+}
+.features-section__image img{
+  width: 500px;
+}
+
+.features-section{
+  padding-top: 120px;
+}
+.features-section__info{
+  padding-top: 150px;
+}
+.info-title{
+  font-size: 48px;
+  font-family: "Arial Rounded", sans-serif;
+  color: #2b044d;
+  margin-top: 30px;
+}
+.feature-types__1, .feature-types__2, .feature-types__3,.feature-types__4{
+  width: 50%;
+  float: left;
+
+
+}
+.type-title{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  color: #23182c;
+}
+
+.type-description{
+  font-family: "Poppins", sans-serif;
+  color: #707b8e;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+/* /Features Section*/
+
+/* Helping Section*/
+.helping-section{
+  padding-top: 120px;
+}
+.section-title2{
+  font-size: 48px;
+  font-family: "Arial Rounded", sans-serif;
+  color: #2b044d;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.helping-blocks__block{
+  display: inline-block;
+  width: 30%;
+  padding: 60px 30px;
+  background-color: #F8FAFF;
+  margin-right: 3%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.helping-blocks__block:hover .card-logo{
+  color: #835EF8;
+}
+.helping-blocks__block:hover{
+  border: 1px solid gray;
+}
+.helping-blocks__block.active i{
+  color: #835EF8;
+}
+.card-logo{
+  font-size: 50px;
+  margin-bottom: 12px;
+  color: #E88CEA;
+}
+.block__title{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 27px;
+}
+.block__description{
+  font-family: "Poppins", sans-serif;
+  color: #707b8e;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+.block__title:hover{
+  color: #835ef8;
+}
+/* /Helping Section*/
+
+/*Screenshots Section*/
+.screenshots-section{
+  margin-top: 170px;
+}
+.screenshots-section > div{
+  width: 50%;
+  float: left;
+}
+.screen-img{
+  width: 32%;
+  display: inline-block;
+
+  
+}
+.screenshots-images{
+  overflow-y: auto;
+  height: 525px;
+}
+.screenshots-info{
+  width: 20%;
+}
+.screenshots-info__title{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  padding-right: 30px;
+}
+.section-description.screenshots-description{
+  padding-right: 20px;
+}
+/* /Screenshots Section*/
+
+/*Pricing Section*/
+.pricing-section{
+  background-image: url("https://preview.colorlib.com/theme/appco/assets/img/gallery/best_pricingbg.jpg.webp");
+  height: 400px;
+  margin-bottom: 200px;
+}
+.pricing-section__title{
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 20px;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #f7f7f7;
+  text-shadow: #835ef8 10px 12px 10px;
+}
+
+.pricing-cards__card{
+  display: inline-block;
+  width: 30%;
+  padding: 30px 30px;
+  background-color: #F8FAFF;
+  margin-left: 2.3%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.card__title{
+  color: #57667e;
+  font-size: 24px;
+  margin-top: 2px;
+  font-weight: 400;
+  margin-bottom: 2px;
+  display: inline-block;
+}
+.card__price{
+  color: #6a56a6;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  padding-right: 3px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 9px;
+}
+.card__price span{
+  color: #6a56a6;
+  font-size: 16px;
+}
+.card__description{
+  font-size: 16px;
+  color: #707b8e;
+  font-weight: normal;
+  margin-top: 30px;
+  line-height: 33px;
+}
+.card__button{
+  margin-top: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 2px;
+  background: #712fda;
+  border: none;
+  border-radius: 6px;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #FFFFFF;
+
+}
+.card__button:hover{
+  background: #ff374b;
+}
+/*/Pricing Section*/
+
+
+/*Clients Section*/
+.clients-section{
+  margin-bottom: 180px;
+}
+.section-title2.customers{
+  padding-top: 100px;
+  line-height: 1.2;
+}
+.client-cards__card{
+  display: inline-block;
+  width: 23%;
+  margin-right: 3%;
+  box-shadow: rgba(131, 93, 248, 0.07) 0px 0px 9px 0px;
+  padding: 55px 34px 55px 44px;
+  border-radius: 20px;
+}
+.client-card__title{
+  font-size: 20px;
+  color: #712fda;
+  font-weight: 500;
+  
+}
+.client-card__description{
+  color: #797979;
+  line-height: 30px;
+  font-size: 18px;
+}
+/* /Clients Section*/
+
+/* App Section*/
+.app-section{
+  margin-top:100px;
+}
+/*
+.container.app{
+  background-image: -webkit-linear-gradient(0deg, #6c19f6 0%, #f9218d 100%);
+  padding: 15px 10px;
+}
+*/
+.app-section > div{
+  width: 40%;
+  float: left;
+}
+.app-section__image img{
+  width: 600px;
+}
+.app-section__info{
+  margin-right: 70px;
+}
+@media screen and (max-width: 480px) {
+
+  .container.app{
+    background-image: -webkit-linear-gradient(0deg, #6c19f6 0%, #f9218d 100%);
+    padding: 40px 0px;
+  }
+  .info-title.app-info__title{
+    font-size: 48px;
+    font-family: "Arial Rounded", sans-serif;
+    color: #ffffff;
+    margin-top: 30px;
+    padding-left: 30px;
+  }
+
+  .section-description.app-info__description{
+    font-size: 16px;
+    color: #fdfdfd;
+    font-weight: normal;
+    margin-top: 30px;
+    line-height: 30px;
+    padding-left: 30px;
+  }
+  .app-section__button.btn{
+    margin-left: 30px;
+    color:rgb(255, 0, 0)
+  }
+}
+
+/*
+.app-info__title{
+  font-size: 48px;
+  font-family: "Arial Rounded", sans-serif;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.app-info__description{
+  font-size: 16px;
+  color: #fdfdfd;
+  font-weight: normal;
+  margin-top: 30px;
+  line-height: 30px;
+}
+*/
+
+
+
+.app-section__button{
+  padding: 15px 32px;
+  background-color: rgb(41, 41, 41);
+  color: #ff0000;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.app-section__button i{
+  color:rgb(0, 183, 255);
+}
+
+/* /App Section*/
+
+/*Contact Section*/
+.contact-section{
+  padding-top: 150px;
+}
+.contact-section > div{
+  width: 50%;
+  float: left;
+}
+.contact-section__button{
+  text-align: center;
+  padding-top: 25px;
+}
+
+/* /Contact Section*/
+
+/*Footer Section*/
+.footer-section{
+  padding-top: 150px;
+}
+.footer-section > div{
+  width: 20%;
+  float: left;
+}
+.footer-section div{
+  margin-right: 3%;
+}
+.footer-menu a{
+  text-decoration: none;
+  color: #797979;
+}
+.footer-menu li{
+  line-height: 35px;
+  list-style: none;
+}
+.logo_desciption input{
+  height: 30px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.logo_desciption button{
+  display: inline-block;
+  width: 170px;
+  height: 40px;
+  background-color: rgb(143, 27, 220);
+  border: none;
+  cursor: pointer;
+}
+.send-email i{
+  font-size: 34px;
+  color: white;
+}
